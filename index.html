@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="reset.css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <title>Animation</title>
+    <script src="jquery-3.2.1.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+
+            $("#menu-icon").click(function(){
+                $('#top-nav').toggle();
+            });
+        });
+    
+    </script>
+    
+</head>
+
+<body> 
+     <header>
+        <div class="center-box">
+            <div id="top">
+                
+                <div id="logo">
+                    <a href="#"><img src="img/logo.svg" alt="Bella Beauty logo"></a>
+                    <div id="menu-icon">
+                        <a href="#"><img src="img/hicon.svg" alt="Hamburger-icon"></a>
+                    </div>
+                </div>
+                
+                <nav id="top-nav">
+                    <ul> 
+                        <li><a href="#">Márkák</a></li>
+                        <li><a href="#">Arcápolás</a></li>
+                        <li><a href="#">Testápolás</a></li>
+                        <li><a href="#">Smink</a></li>
+                        <li><a href="#">Haj</a></li>
+                        <li><a href="#">Kéz és köröm</a></li>
+                        <li><a href="#">Akciós termékek</a></li>
+                    </ul>
+                 </nav>
+                 
+            </div>
+         </div>
+    </header> 
+           
+    <main>        
+         <section id="banner">   
+             <div id="top-slider">
+                 <div class="center-box">
+                     <div id="images">
+                            <div id="cosmetics">
+                                 <img src="img/beauty.png" alt="beauty" id="girl">
+                                 <img src="img/cosmetics-4.png" alt="cosmetics" id="cos4">
+                                 <img src="img/cosmetics-5.png" alt="cosmetics" id="cos5">
+                                 <img src="img/cosmetics-1.png" alt="cosmetics" id="cos1">
+                                 <img src="img/cosmetics-2.png" alt="cosmetics" id="cos2">
+                                 <img src="img/cosmetics-3.png" alt="cosmetics" id="cos3">
+                                    <div id="action">
+                                        -35%
+                                    </div>
+                         </div>
+                     </div>
+                 </div> 
+             </div>
+             
+             <div class="center-box">
+                
+                 
+                 <h1>Rosy Pure natúr arcápoló</h1>
+                 <div id="top-slider-text">
+                 <h2>AZ EGÉSZSÉGES ÉS RAGYOGÓ BŐRÉRT</h2>
+                     <p id="tst">Nulla elit magna, diamLorem ipsum dolor sit amet, consectetur adipiscing auctor id libero vel, bibendum facilisis diamorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                   <div class="button" id="btop">
+                     <a href="#">VÁSÁRLÁS MOST!</a>
+                   </div>
+                 
+                </div>
+             </div>   
+        </section>      
+             
+          
+    <section id="content-gallery">
+        <div class="center-box">
+            <h3>ÚJDONSÁGOK</h3>
+            <div id="gallery">
+                <div class="content-img">
+                    <div class="product">
+                       <img src="img/product-1.jpg" alt="product"><br />
+                       <b>Loreal Nude Perfection szemhéjpúder</b>
+                       <br /><br /> 2 490 Ft<br />
+                       <strong><a href="#">KOSÁRBA</a></strong>
+                    </div>
+                </div>
+                
+                <div class="content-img">
+                    <div class="product">
+                       <img src="img/product-2.jpg" alt="product"><br />
+                       <b>Lancome Ruby Rúzs - Ferrari Red</b>
+                       <br /><br />1 490 Ft<br />
+                       <strong><a href="#">KOSÁRBA</a></strong>
+                    </div>
+                </div>
+                
+                <div class="content-img">
+                    <div class="product">
+                       <img src="img/product-3.jpg" alt="product"><br />
+                       <b>Chanel Le Vernis Rúzs</b><br /><br />
+                       990 Ft<br /><br />
+                       <strong><a href="#">KOSÁRBA</a></strong>
+                    </div>
+                </div>
+                
+                <div class="content-img">
+                    <div class="product">
+                       <img src="img/product-4.jpg" alt="product"><br />
+                       <b>Attitude kőpuder - Ivory Beige</b>
+                       <br /><br />1 490 Ft<br />
+                       <strong><a href="#">KOSÁRBA</a></strong>
+                    </div>
+                </div>
+            </div>
+         </div>  
+    </section>
+        
+        
+<section id="content-cta">
+    <div class="center-box">
+        <div id="cta-img">
+         <img src="img/gift-card.jpg" alt="gift-card"> </div>
+        <div id="cta">
+            <h4>Ajándék utalvány</h4>
+            <p>Nulla elit magna, diamLorem ipsum dolor sit amet, consectetur adipiscing auctor id libero vel, bibendum facilisis diamorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="button" id="ctab"> <a href="#">VÁSÁRLÁS MOST!</a> </div>
+        </div>
+    </div>
+</section>
+</main>
+    
+    <footer>
+        <div class="center-box">
+            <nav>
+                 <ul> 
+                    <li><a href="#">Rendelés menete</a></li>
+                    <li><a href="#">Szállítási feltétele</a></li>
+                    <li><a href="#">ÁSZF</a></li>
+                    <li><a href="#">Impresszum</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>

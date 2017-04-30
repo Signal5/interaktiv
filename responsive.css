@@ -1,0 +1,1126 @@
+
+@media only screen and (min-width: 1349px){
+#tst{
+    text-align: left;
+}
+    #menu-icon{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1349px){   
+    
+    #menu-icon{
+        visibility: hidden;
+    }
+    
+
+    body{
+        width: 100%;
+    }
+    
+    .center-box{
+        width: 92%;
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    
+    #content-cta {
+        width: 100%;
+
+    }
+
+    #cta-img {
+        width: 48%;
+        height: auto;
+    }
+
+    #cta-img img{
+        height: auto;
+        height: 100%
+    }
+
+    #cta {
+        width: 48%;
+        height: 321px;
+        float: right;
+        border: 1px solid #cacaca;
+        padding: 22px;
+        margin-bottom: 25px;   
+    }
+    
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #tst{
+        text-align: left;
+    }
+
+    .content-img {
+        width: 23.2%;  
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    .content-img:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .content-img:nth-of-type(3) {
+        margin-left: 20px;
+        
+    }
+
+    .content-img:nth-of-type(4) {
+        margin-right: 0;
+     
+    }
+    .content-img img {
+        width: 95%;
+    }
+    footer{
+        height: auto;
+        overflow: hidden;
+    }
+    
+    footer nav{
+        margin-right: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    footer nav ul li{
+        display: inline-block;
+        width: 17%;
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+    }
+
+    footer nav ul li a{
+        padding: 0 10px;   
+    }
+
+    footer nav ul li:nth-of-type(3){
+        width: 12%;
+    }
+
+    footer nav ul li:nth-of-type(4){
+        width:15%;
+    }
+
+    footer nav ul li:nth-of-type(1){
+        margin-left: 15%;
+    }  
+    
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1200px){
+    #tst{
+        text-align: left; 
+        width: 93%;
+        font-size: 17px;
+    }
+    
+    h1{
+       
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    
+    h2{
+        font-size: 28px;
+        margin-top: 5px;
+    }
+    
+        
+    
+    #top-slider-text {
+
+        width: 63%;
+        overflow: hidden;   
+    }
+
+    #girl{
+        width: 135%;
+        margin-top: -90px;
+        margin-left: 58%;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 495px;
+        top: 130px;
+        left: -50px;
+        
+    }
+   
+    #banner{
+        height: 655px;
+    }
+    
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1045px){
+
+
+    #logo {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    header{
+        height: auto;
+        overflow: hidden;
+
+    }
+
+
+    nav{
+        width: 100%;
+        height: 55px;
+        margin-top: 30px;
+        padding-top: 10px;
+        border-top: 1px solid #cacaca;
+
+    }
+
+
+    nav ul li{
+        display: inline-block;
+        width: 13%;
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+
+    }
+
+    nav ul li:nth-of-type(4) {
+        padding: 0;
+        width: 8%;
+    }
+
+    nav ul li:nth-of-type(5) {
+        padding: 0;
+        width: 8%;
+    }
+
+    nav ul li:nth-of-type(6) {
+        padding: 0;
+        width: 15%;
+    }
+
+    nav ul li:nth-of-type(7) {
+        padding: 0;
+        width: 18%;
+    } 
+
+
+    footer nav {
+        padding-top: 20px;
+        margin: 0 auto;
+
+    }
+
+    footer nav ul li{
+        display: inline-block;
+        width: 22%;
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+
+    }
+
+    footer nav ul li a{
+        padding: 0 10px;   
+    }
+
+
+    footer nav ul li:nth-of-type(1){
+        margin-left: 8%;
+        width: 22%;
+    }  
+    footer nav ul li:nth-of-type(2){
+        width: 22%;
+    } 
+    footer nav ul li:nth-of-type(3){
+        width: 15%;
+    }
+
+    footer nav ul li:nth-of-type(4){
+        width: 22%;
+    }
+    
+}
+
+
+    
+@media only screen and (min-width: 768px) and (max-width: 980px){
+    #menu-icon{
+        visibility: hidden;
+    }
+    
+    body{
+        width: 100%;
+    }
+
+    .center-box{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    header{
+        height: auto;
+        overflow: hidden;
+
+    }
+    
+    #logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+    
+    nav{
+        width: 100%;
+        height: 55px;
+        margin-top: 30px;
+        padding-top: 10px;
+        border-top: 1px solid #cacaca;
+        
+    }
+    
+    
+    nav ul li{
+        display: block;
+        width: 13%;
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+        
+    }
+    
+    nav ul li:nth-of-type(4) {
+        padding: 0;
+        width: 8%;
+    }
+    
+    nav ul li:nth-of-type(5) {
+        padding: 0;
+        width: 8%;
+    }
+
+    nav ul li:nth-of-type(6) {
+        padding: 0;
+        width: 15%;
+    }
+
+    nav ul li:nth-of-type(7) {
+        padding: 0;
+        width: 18%;
+    } 
+    
+    h1{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 38px;
+    }
+
+    h3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    h2{
+        text-align: center;
+    }
+    
+    #banner{
+       height: 650px; 
+    }
+    
+    #top-slider-text {
+        margin: 0 auto;
+        width: 95%;
+        overflow: hidden;
+       
+    }
+    
+    #tst{
+        
+        text-align: left;
+        width: 55%;
+    }
+
+    #girl{
+        width: 115%;
+        margin-top: 0;
+        margin-left: 58%;
+       
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 495px;
+        top: 130px;
+        left: -140px;
+        
+    }
+    
+    
+    .content-img {
+        width: 48%;  
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .content-img:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .content-img:nth-of-type(3) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .content-img:nth-of-type(4) {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    
+    #content-cta {
+        width: 100%;
+    }
+
+    #cta-img {
+        width: 100%;
+        height: auto;
+    }
+
+    #cta-img img{
+        width: 100%;
+        height: auto;
+    }
+
+    #cta {
+        width: 100%;
+        height: 321px;
+        float: right;
+        border: 1px solid #cacaca;
+        padding: 58px 50px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    
+    main{
+        overflow: hidden;
+    }
+    
+    
+    footer nav {
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    
+    footer nav ul li{
+        display: block;
+        width: 22%;
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    footer nav ul li a{
+        padding: 0 10px;   
+    }
+    
+    footer nav ul li:nth-of-type(3){
+        width: 17%;
+    }
+    
+    footer nav ul li:nth-of-type(4){
+        width: 22%;
+    }
+    
+    footer nav ul li:nth-of-type(1){
+       margin-left: 7%;
+    }   
+}
+
+
+@media only screen and (max-width: 767px){
+    
+
+    
+header{
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+        overflow: hidden;
+}
+    
+
+body{
+    width: 100%;
+}
+
+.center-box{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+
+nav{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #cacaca;
+    
+}
+    
+
+
+nav ul li{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+nav ul li:nth-of-type(7) {
+    border-bottom: none;
+} 
+        
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+  
+    
+    #top-slider-text {
+        margin: 0 auto;
+        width: 95%;
+        overflow: hidden;
+
+    }
+
+    #tst{
+
+        text-align: left;
+        width: 56%;
+    }
+
+    #girl{
+        width: 115%;
+        margin-top: 0;
+        margin-left: 58%;
+    }
+    
+    #banner{
+        height: 650px;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 495px;
+        top: 130px;
+        left: -140px;
+
+    }
+
+
+.content-img {
+    width: 48%;  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content-img:nth-of-type(2) {
+    margin-right: 0;
+}
+
+.content-img:nth-of-type(3) {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.content-img:nth-of-type(4) {
+    margin-right: 0;
+    margin-top: 20px;
+}
+
+#content-cta {
+    width: 100%;
+}
+
+#cta-img {
+    width: 100%;
+    height: auto;
+}
+
+#cta-img img{
+    width: 100%;
+    height: auto;
+}
+
+#cta {
+    width: 100%;
+    height: 321px;
+    float: right;
+    border: 1px solid #cacaca;
+    padding: 58px 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+}
+
+@media only screen and (max-width: 641px){
+#top-slider-text {
+    margin: 0 auto;
+    width: 95%;
+    overflow: hidden;
+
+}
+
+#tst{
+
+    text-align: left;
+    width: 60%;
+}
+
+#girl{
+    width: 115%;
+    margin-top: 0;
+    margin-left: 58%;
+}
+
+#banner{
+    height: 650px;
+}
+
+#cosmetics {
+    position: absolute;
+    width: 345px;
+    height: 495px;
+    top: 130px;
+    left: -130px;
+}
+    
+    h1{
+     font-size: 38px;   
+    }
+}
+    
+@media only screen  and (min-width: 558px) and (max-width: 767px){
+    
+    
+    
+    
+    main{
+        overflow: hidden;
+    }
+    
+    footer{
+        height: auto;
+        overflow: hidden;
+    }
+
+    footer nav{
+        margin-right: 0;
+        margin-top: 0;
+        border-top: none;
+        padding-top: 10px;
+    }
+
+    footer nav ul li{
+        display: block;
+        width: 100%;
+        padding: 9px 0;
+
+        text-align: center;
+        border-left: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    footer nav ul li:nth-of-type(1){
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 0;
+        border-top: none;
+    } 
+
+    footer nav ul li:nth-of-type(3){
+        width: 100%;
+        padding: 9px 0;
+    }
+
+    footer nav ul li:nth-of-type(4){
+        width: 100%;
+        padding: 9px 0;
+        border: none;
+    }
+    
+    #cosmetics{
+       top: 130px;
+       left:-180px;
+    }
+    
+    h1{
+  
+        font-size: 36px;
+    }
+    
+    h2{
+
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    #tst{
+        width: 56%;
+    }
+    
+    #logo{
+        text-align: left;
+    }
+}
+
+@media only screen  and (max-width: 557px){
+    
+
+    main{
+        overflow: hidden;
+    }
+    
+    .content-img {
+        width: 47.5%;  
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+
+    .content-img:nth-of-type(2) {
+        margin-right: 0;
+    }
+
+    .content-img:nth-of-type(3) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .content-img:nth-of-type(4) {
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    
+    .product{
+        padding: 16px 25px 22px 25px;
+        text-align: center;
+    }
+    .content-img img {
+        width: 100%;
+    }
+    
+    footer{
+        height: auto;
+        overflow: hidden;
+    }
+    
+    footer nav{
+        margin-right: 0;
+        margin-top: 0;
+        border-top: none;
+        padding-top: 10px;
+    }
+    
+    footer nav ul li{
+        display: block;
+        width: 100%;
+        padding: 9px 0;
+        
+        text-align: center;
+        border-left: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    footer nav ul li:nth-of-type(1){
+        width: 100%;
+        margin-left: 5px;
+        margin-top: 0;
+        border-top: none;
+    } 
+    
+    footer nav ul li:nth-of-type(3){
+        width: 100%;
+        padding: 9px 0;
+    }
+
+    footer nav ul li:nth-of-type(4){
+        width: 100%;
+        padding: 9px 0;
+        border: none;
+    }
+
+    
+ }
+
+@media only screen  and (min-width: 498px) and (max-width: 600px){
+    
+
+    #girl{
+        width: 90%;
+        margin-top: 445px;
+        margin-left: 0;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+
+    }
+
+    #banner{
+        height: 1240px;
+        background-position: center;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 995px;
+        top: -40px;
+        left: -75px;
+         -ms-transform: scale(1.5, 1.5); /* IE 9 */
+         -webkit-transform: scale(1.5, 1.5); /* Safari */
+         transform: scale(1.5, 1.5);
+        
+
+    }
+
+    #action{
+        margin-top: 900px;
+        margin-left: 45%;
+    }
+
+    #top-slider-text {
+        margin: 0 auto;
+        width: 95%;
+        overflow: hidden;
+        clear: both;
+        text-align: center;
+        
+    }
+    
+    #tst{
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .button{
+        padding: 7px;
+        margin: 20px auto;
+    }
+    
+    #ctab a{
+        padding: 7px 17px;
+    }
+    #logo{
+        text-align: left;
+    }
+}
+   
+@media only screen  and (min-width: 321px) and (max-width: 497px){
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+    
+    .content-img {
+        width: 100%; 
+        height: auto;
+        margin: 0;
+        margin-bottom: 15px;
+        
+    }
+
+    .product{
+        
+        height: auto;
+        padding: 25px;
+        text-align: center;
+
+    }
+    .content-img img {
+        width: 80%;
+    }
+    
+    #content-cta {
+        height: auto;
+    }
+
+    #cta {
+        height: auto;
+        padding: 15px 15px;
+    }
+    
+    .button {
+       
+        margin-left: 25%;
+        padding: 7px;
+    }
+
+    .button a{
+       
+    }
+    
+    #ctab{
+        width: 205px;
+    }
+    
+    #ctab a{
+        padding: 7px 18px; 
+    }
+    
+    #top-slider-text {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+        clear: both;
+        text-align: center;
+    }
+
+    #tst{
+
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #girl{
+        width: 90%;
+        margin-top: 245px;
+        margin-left: 0;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+    }
+
+    #banner{
+        height: 910px;
+        background-position: center;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 795px;
+        top: 70px;
+        left: -95px;
+    }
+    
+    #action{
+        margin-top: 700px;
+        margin-left: 45%;
+    }
+    
+    #logo{
+        text-align: left;
+    }
+    
+}
+
+@media only screen  and (min-width: 321px) and (max-width: 465px){
+    
+    h1{
+        font-size: 28px;
+    }
+    
+    #girl{
+        width: 90%;
+        margin-top: 445px;
+        margin-left: 0;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+        
+    }
+
+    #banner{
+        height: 980px;
+        background-position: center;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 995px;
+        top: -60px;
+        left: -115px;
+        
+    }
+
+    #action{
+        margin-top: 900px;
+        margin-left: 45%;
+    }
+    
+    .button {
+
+        margin-left: 15%;
+    }
+
+    #logo{
+        text-align: left;
+    }
+    
+    #ctab{
+        margin-left: 25%;
+    }
+}
+
+@media only screen  and (max-width: 320px){
+    
+    #menu-icon{
+        width: 15px;
+        height: 15px;
+    }
+
+    #logo{
+      text-align: left;
+    }
+    
+    h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 19px;
+    }
+    
+    
+    
+    #gallery{
+        margin-bottom: 20px;
+    }
+    
+    #content-cta {
+        height: auto;
+    }
+    
+    #cta {
+       height: auto;
+        padding: 15px 15px;
+    }
+    
+    .button {
+        width: 100%;
+        padding-left: 20%;
+    }
+    
+    .button a{
+        font-size: 14px;
+    }
+    
+    .content-img {
+        width: 100%; 
+        height: auto;
+        margin: 0;
+        margin-bottom: 15px;
+
+    }
+
+    .product{
+
+        height: auto;
+        padding: 25px;
+        text-align: center;
+
+    }
+    .content-img img {
+        width: 80%;
+    }
+
+    #top-slider-text {
+        margin: 0 auto;
+        width: 90%;
+        overflow: hidden;
+        clear: both;
+    }
+
+    #tst{
+
+        text-align: center;
+        width: 95%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #girl{
+        width: 90%;
+        margin-top: 450px;
+        margin-left: 0;
+        opacity: 0.2;
+        filter: alpha(opacity=20);
+    }
+
+    #banner{
+        height: 1010px;
+        background-position: center;
+    }
+
+    #cosmetics {
+        position: absolute;
+        width: 345px;
+        height: 995px;
+/*        top: 130px;*/
+        top: -20px;
+        left: -115px;
+    }
+    
+    #action{
+        margin-top: 900px;
+        margin-left: 45%;
+    }
+}

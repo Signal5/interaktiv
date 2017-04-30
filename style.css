@@ -1,0 +1,608 @@
+body {
+    width: 1349px;
+    height: 1684px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.center-box {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 205px;
+    height: 36px;
+    margin-top: 30px;
+    background: #fc7379;
+    box-shadow: 1px 0 3px rgba(122, 25, 30, 0.5) inset;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding-top: 5px;
+    padding-left: 25px;
+   
+}
+
+#btop{
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s
+}
+
+#ctab {
+    margin: 0 auto;
+}
+
+
+.button a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+ .product a:hover{
+    color:#61dba4;
+}
+
+.button:hover{
+    
+    background: #fff;
+    color: #fc7379;
+    border: 1px solid #fb6c79;
+}
+
+.button a:hover{
+    
+    color: #fc7379;
+}
+
+#top {
+    background: #ffffff;
+    height: 80px;   
+}
+
+#logo {
+    float: left;
+    width: 195px;
+    height: 50px;
+    padding-top: 17px;
+    
+}
+
+#menu-icon{
+    width: 50px;
+    float: right;
+   
+    
+}
+
+#menu-icon img{
+    width: 45px;
+}
+
+nav {
+    float: right;
+    padding-top: 30px;
+}
+
+nav li {
+    display: inline-block;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+}
+
+nav ul {
+    margin: 0;
+    clear: both;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li:nth-of-type(1) {
+    padding-left: 0;
+}
+
+nav ul li:nth-of-type(7) {
+    padding-right: 0;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxx
+xxxxx banner rész xxxxx
+xxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+#banner{
+    background: #f7f7f7 url("img/flower.png");
+    background-position:70px -10px;
+    position: relative;
+    overflow: hidden;
+    height: 535px;
+    box-shadow: 0 -2px 3px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid #cacaca;
+    
+}
+
+#top-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+}
+
+#images {
+    width: 62%;
+    height: 534px;
+    float: right;
+    position: relative;
+    margin-left: 0;
+}
+
+
+#cosmetics {
+    position: absolute;
+    width: 100%;
+    height: 495px;
+    top: 0;
+    left: 0px;
+    
+}
+
+
+#girl {
+    float: left;
+    margin-top: -180px;
+    margin-left: 185px;
+   
+    
+    opacity: 0;
+    animation: 2s right ease 0s forwards;
+    -webkit-animation: 2s right ease 0s forwards;
+    -moz-animation: 2s right ease 0s forwards;
+    -o-animation: 2s right ease 0s forwards;
+    -webkit-animation-delay: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 0.5s;
+    
+
+    
+}
+
+#cos4 {
+    position: absolute;
+    height: 225px;
+    bottom: 20px;
+    left: 20px;
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 2.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 2.5s;
+    
+    
+}
+
+
+#cos5 {
+    position: absolute;
+    height: 253px;
+    bottom: 20px;
+    left: 125px;
+    
+    opacity: 0;
+    animation: 2s right ease 0s forwards;
+    -webkit-animation: 2s right ease 0s forwards;
+    -moz-animation: 2s right ease 0s forwards;
+    -o-animation: 2s right ease 0s forwards;
+    -webkit-animation-delay: 4s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4s
+    
+}
+
+#cos1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 165px;
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3s;
+}
+
+
+#cos2 {
+    position: absolute;
+    height: 194px;
+    bottom: 0px;
+    left: 215px;
+    
+    opacity: 0;
+    animation: 2s right ease 0s forwards;
+    -webkit-animation: 2s right ease 0s forwards;
+    -moz-animation: 2s right ease 0s forwards;
+    -o-animation: 2s right ease 0s forwards;
+    -webkit-animation-delay: 4.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 4.5s
+}
+
+#cos3 {
+    position: absolute;
+    height: 100px;
+    bottom: -20px;
+    left: 55px;
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 3.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 3.5s
+}
+
+#action {
+    width: 85px;
+    height: 85px;
+    background: #61dba4 url("img/menta-bg.gif");
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: #fff;
+    line-height: 85px;
+    text-shadow: 1px 0 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 376px;
+    margin-left: 235px;
+    position: absolute;
+    transform: rotate(-9deg);
+    
+    opacity: 0;
+    animation: 2s rotate ease 5s forwards;
+    -webkit-animation: 2s rotate ease 4s forwards;
+    -moz-animation: 2s rotate ease 4s forwards;
+    -o-animation: 2s rotate ease 4s forwards;
+    -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 5s;
+    
+    
+    
+    
+}
+
+#top-slider-text {
+
+    /*    border: 1px solid green;*/
+    width: 480px;
+}
+
+h1,
+h3,
+h4 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+}
+
+h1 {
+    margin-top: 110px;
+    font-size: 40px;
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fb6c79;
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 0.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 0.5s;
+}
+
+h3 {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 35px;
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#tst{
+    
+    opacity: 0;
+    animation: 2s left ease 0s forwards;
+    -webkit-animation: 2s left ease 0s forwards;
+    -moz-animation: 2s left ease 0s forwards;
+    -o-animation: 2s left ease 0s forwards;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxx
+xxxxx content rész xxxxx
+xxxxxxxxxxxxxxxxxxxxxxxx*/
+
+#gallery {
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.content-img {
+    width: 264.5px;
+    height: 405px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid #cacaca;
+    box-sizing: border-box;
+}
+
+
+.product{
+    padding: 26px 35px 44px 35px;
+    text-align: center;
+}
+    
+
+.content-img a{
+    color: #fb6c79;
+    display: block;
+    margin-top:  17px;
+}
+
+.content-img img {
+    width: 200px;
+}
+
+strong {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content-img:nth-of-type(1) {
+    margin-left: 0;
+}
+
+.content-img:nth-of-type(4) {
+    margin-right: 0;
+}
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxx
+xxxxx content cta xxxxx
+xxxxxxxxxxxxxxxxxxxxxxx*/
+
+#content-cta {
+    height: 405px;
+}
+
+#cta-img {
+    width: 570px;
+    float: left;
+    height: 321px;
+
+    overflow: hidden;
+}
+
+#cta {
+    width: 570px;
+    float: right;
+    height: 321px;
+    border: 1px solid #cacaca;
+    padding: 58px 50px;
+}
+
+
+/*xxxxxxxxxxxxxxxx
+xxxxx footer xxxxx
+xxxxxxxxxxxxxxxxxx*/
+
+footer {
+    height: 77px;
+    background: #e2e2e2;
+}
+
+footer nav {
+    padding-top: 25px;
+    margin-right: 395px;
+}
+
+footer nav li {
+    border-left: 1px solid #333;
+}
+
+footer nav a {
+    color: #333;
+}
+
+footer nav ul li:nth-of-type(1) {
+    border-left: none;
+}
+
+
+/*xxxxxxxxxxxxxxxx
+xxxxxxAnimációxxxx
+xxxxxxxxxxxxxxxxxx*/
+
+@keyframes left {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes left {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes left {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes left {
+    from {
+        margin-left: -50px;
+        opacity: 0;
+    }
+    to {
+        margin-left: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes right {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+@-webkit-keyframes right {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+@-moz-keyframes right {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+@-o-keyframes right {
+    from {
+        margin-right: -150px;
+        opacity: 0;
+    }
+    to {
+        margin-right: 0px;
+        opacity: 1;
+    }
+}
+
+
+
+
+@keyframes rotate {
+    from {
+        opacity: 0;
+        transform: rotate(200deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(-10deg);
+    }
+}
+@-webkit-keyframes rotate {
+    from {
+        opacity: 0;
+        transform: rotate(200deg);
+        -webkit-transform: rotate(200deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(-10deg);
+        -webkit-transform: rotate(-10deg);
+    }
+}
+@-moz-keyframes rotate {
+    from {
+        opacity: 0;
+        transform: rotate(200deg);
+        -moz-transform: rotate(200deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(7deg);
+        -moz-transform: rotate(7deg);
+    }
+}
+@-o-keyframes rotate {
+    from {
+        opacity: 0;
+        transform: rotate(200deg);
+        -o-transform: rotate(200deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotate(7deg);
+        -o-transform: rotate(7deg);
+    }
+}
